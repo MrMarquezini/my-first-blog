@@ -25,7 +25,11 @@ SECRET_KEY = '1v1tum-$g(q@$ro-t3^^rt0&(vr+&5xpzeg0ab&x@ms!yjk3rt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '<marquezini>.pythonanywhere.com']
+ALLOWED_HOSTS = [
+'127.0.0.1', 
+'<marquezini>.pythonanywhere.com',
+'DjangoBlogs.pythonanywhere.com',
+]
 
 
 # Application definition
